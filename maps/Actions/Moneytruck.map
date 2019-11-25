@@ -1,0 +1,22 @@
+<map edf:definitions="editor_main">
+    <object id="object (CJ_DF_UNIT) (1)" breakable="true" interior="0" alpha="255" model="939" doublesided="true" scale="1" dimension="0" posX="1895.4" posY="974.70001" posZ="12.3" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (imy_bbox) (1)" breakable="true" interior="0" alpha="255" model="2991" doublesided="true" scale="1" dimension="0" posX="1911.7" posY="968.90002" posZ="10.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kmb_container_blue) (1)" breakable="true" interior="0" alpha="255" model="2932" doublesided="false" scale="1" dimension="0" posX="1895.8" posY="984.09998" posZ="11.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (1)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1894.5" posY="980.20001" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (2)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1895.3" posY="980.20001" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (3)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1895" posY="979.59998" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (4)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1896" posY="980.29999" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (5)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1896.6" posY="980.20001" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (6)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1894.5" posY="979.09998" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (7)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1894.6" posY="978.20001" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (8)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1897.2" posY="980.29999" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (9)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1897.6" posY="980.79999" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (10)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1895.6" posY="977.59998" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (11)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1894.5" posY="971.79999" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (12)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1894.5" posY="971.09998" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (13)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1894.5" posY="970.29999" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (14)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1894.5" posY="969.5" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (15)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1894.4" posY="968.79999" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (16)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1895.1" posY="971.59998" posZ="10.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MONEY_BAG) (17)" breakable="true" interior="0" alpha="255" model="1550" doublesided="true" scale="1" dimension="0" posX="1895.7" posY="969.29999" posZ="10.05" rotX="0" rotY="90" rotZ="90"></object>
+</map>

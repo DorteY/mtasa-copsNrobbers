@@ -1,0 +1,14 @@
+<map edf:definitions="editor_main">
+    <object id="object (drug_white) (1)" breakable="true" interior="0" alpha="255" model="1575" doublesided="true" scale="1" dimension="0" posX="161" posY="-20.1" posZ="0.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drug_white) (2)" breakable="true" interior="0" alpha="255" model="1575" doublesided="true" scale="1" dimension="0" posX="160.5" posY="-20.1" posZ="0.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drug_white) (3)" breakable="true" interior="0" alpha="255" model="1575" doublesided="true" scale="1" dimension="0" posX="160" posY="-20.1" posZ="0.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drug_white) (4)" breakable="true" interior="0" alpha="255" model="1575" doublesided="true" scale="1" dimension="0" posX="160.2" posY="-20.1" posZ="0.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drug_white) (5)" breakable="true" interior="0" alpha="255" model="1575" doublesided="true" scale="1" dimension="0" posX="160.8" posY="-20.1" posZ="0.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (ammotrn_obj) (1)" breakable="true" interior="0" alpha="255" model="3066" doublesided="false" scale="1" dimension="0" posX="163.39999" posY="-9.6" posZ="1.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (gunbox) (1)" breakable="true" interior="0" alpha="255" model="1271" doublesided="true" scale="1" dimension="0" posX="161.89999" posY="-27.6" posZ="0.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (gunbox) (2)" breakable="true" interior="0" alpha="255" model="1271" doublesided="true" scale="1" dimension="0" posX="161.89999" posY="-28.5" posZ="0.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (gunbox) (3)" breakable="true" interior="0" alpha="255" model="1271" doublesided="true" scale="1" dimension="0" posX="161.89999" posY="-28.2" posZ="1.578" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (gunbox) (4)" breakable="true" interior="0" alpha="255" model="1271" doublesided="true" scale="1" dimension="0" posX="161.89999" posY="-29.7" posZ="0.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (gunbox) (5)" breakable="true" interior="0" alpha="255" model="1271" doublesided="true" scale="1" dimension="0" posX="162.10001" posY="-29.2" posZ="1.578" rotX="0" rotY="0" rotZ="13.75"></object>
+    <object id="object (drug_white) (6)" breakable="true" interior="0" alpha="255" model="1575" doublesided="true" scale="1" dimension="0" posX="161.89999" posY="-28.2" posZ="1.9" rotX="0" rotY="0" rotZ="0"></object>
+</map>

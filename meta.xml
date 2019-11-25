@@ -1,0 +1,457 @@
+<meta>
+	<info author="DorteY(Lorenzo)" type="gamemode" description="LakeGaming - Cops 'n' Robbers - Since 2019 Lake-Gaming.com by DorteY" />
+	<bandwidth_reduction>maximum</bandwidth_reduction>
+	<min_mta_version server="1.5.4-9.11413" client="1.5.4-9.11413" />
+	<oop>true</oop>
+	
+	<include resource="DGS" />
+	<include resource="realdriveby" />
+	
+	<!--//OOP Class\\-->
+	<script src="oopclass/async.lua" type="shared" cache="false"/>
+	<script src="oopclass/classlib.lua" type="shared" cache="false"/>
+	<!--\\OOP Class//-->
+	
+	<script src="ElementData/cElementData.lua" type="client" cache="false" />
+	<script src="ElementData/sElementData.lua" />
+	
+	<script src="Settings.lua" type="client" cache="false" />
+	<script src="Settings.lua" type="server" />
+	<script src="Utility.lua" type="shared" cache="false" />
+	<script src="Tables.lua" type="shared" cache="false" />
+	<script src="cMain.lua" type="client" cache="false" />
+	<script src="sMain.lua" type="server" />
+	<script src="cDeleteFiles.lua" type="client" cache="false" />
+	
+	<!--//Custom Downloader\\-->
+	<script src="other/customdownloader/cDownloader.lua" type="client" cache="false" />
+	<script src="other/customdownloader/sDownloader.lua" type="server" />
+	<!--\\Custom Downloader//-->
+	
+	<script src="other/cmarker/cMarker.lua" type="client" cache="false" />
+	<script src="other/cmarker/sMarker.lua" type="server" />
+	<script src="Register_Loginsystem/sDatabase.lua" type="server" />
+	<script src="Register_Loginsystem/cLogin_Register.lua" type="client" cache="false" />
+	<script src="Register_Loginsystem/sLogin_Register.lua" type="server" />
+	<script src="other/sLevel.lua" type="server" />
+	<script src="Script.lua" type="server" />
+	
+	<!--//Maps\\-->
+	<map src="maps/Actions/ContainerRob.map" />
+	<map src="maps/Actions/Moneytruck.map" />
+	<map src="maps/Actions/Weedtruck.map" />
+	<map src="maps/TeamBases/LS_Civilian.map" />
+	<map src="maps/TeamBases/LS_PD.map" />
+	<map src="maps/TeamBases/LS_Grove.map" />
+	<map src="maps/TeamBases/LS_Ballas.map" />
+	<map src="maps/ATM.map" />
+	<map src="maps/GTAV_Bank.map" />
+	
+	<map src="maps/Shops/BurgerShot_Int.map" />
+	<map src="maps/Shops/Grotti.map" />
+	
+	<script src="maps/cMapEditor.lua" type="client" cache="false" />
+	<script src="maps/sMapEditor.lua" type="server" />
+	<!--\\Maps//-->
+	
+	<!--//Files\\-->
+	<file src="files/FONTS/BEBAS.ttf" />
+	<file src="files/FONTS/SEGOEUI.ttf" />
+	<file src="files/FONTS/HARABARA.ttf" />
+	<file src="files/FONTS/DRUGS.ttf" />
+	<file src="files/FONTS/XFONT.ttf" />
+	<file src="files/FONTS/ROBOTO.ttf" />
+	<file src="files/FONTS/Arial.ttf" />
+	<file src="files/FONTS/Roboto-Thin.ttf" />
+	
+	
+	<file src="files/IMAGES/Bloodscreen.png" />
+	<file src="files/IMAGES/Black.png" />
+	<cdn src="files/IMAGES/DeathBAR.png" />
+	<cdn src="files/IMAGES/LogoBlack.png" />
+	<cdn src="files/IMAGES/LogoWhite.png" />
+	<cdn src="files/IMAGES/Premium.png" />
+	<cdn src="files/IMAGES/Transparent.png" />
+	
+	<cdn src="files/IMAGES/Nametag/Adminduty.png" />
+	<cdn src="files/IMAGES/Nametag/Staffmember.png" />
+	<cdn src="files/IMAGES/Nametag/Wanted1.png" />
+	<cdn src="files/IMAGES/Nametag/Wanted2.png" />
+	<cdn src="files/IMAGES/Nametag/Wanted3.png" />
+	<cdn src="files/IMAGES/Nametag/Wanted4.png" />
+	<cdn src="files/IMAGES/Nametag/Wanted5.png" />
+	<cdn src="files/IMAGES/Nametag/Wanted6.png" />
+	<cdn src="files/IMAGES/Nametag/TeamPolice.png" />
+	<cdn src="files/IMAGES/Nametag/TeamBallas.png" />
+	<cdn src="files/IMAGES/Nametag/TeamGrove.png" />
+	
+	<cdn src="files/IMAGES/Actions/Weedtruck.png" />
+	
+	<cdn src="files/IMAGES/Infobox/error.png" />
+	<cdn src="files/IMAGES/Infobox/info.png" />
+	<cdn src="files/IMAGES/Infobox/success.png" />
+	<cdn src="files/IMAGES/Infobox/warning.png" />
+	<cdn src="files/IMAGES/Infobox/money.png" />
+	
+	<cdn src="files/IMAGES/Cursor/Cursor.png" />
+	<cdn src="files/IMAGES/Cursor/Left_Click.png" />
+	<cdn src="files/IMAGES/Cursor/Right_Click.png" />
+	
+	<cdn src="files/IMAGES/Colorpicker/blank.png" />
+	<cdn src="files/IMAGES/Colorpicker/cursor.png" />
+	<cdn src="files/IMAGES/Colorpicker/h.png" />
+	<cdn src="files/IMAGES/Colorpicker/sv.png" />
+	
+	<cdn src="files/IMAGES/Speedo/1_Speedo.png" />
+	<cdn src="files/IMAGES/Speedo/1_Needle.png" />
+	<cdn src="files/IMAGES/Speedo/2_Speedo.png" />
+	<cdn src="files/IMAGES/Speedo/2_Needle.png" />
+	
+	<cdn src="files/IMAGES/Achievement/NotReached.png" />
+	<cdn src="files/IMAGES/Achievement/Reached.png" />
+	
+	<cdn src="files/IMAGES/cMarker/Ground.png" />
+	<cdn src="files/IMAGES/cMarker/Out.png" />
+	<cdn src="files/IMAGES/cMarker/In.png" />
+	<cdn src="files/IMAGES/cMarker/Shop.png" />
+	<cdn src="files/IMAGES/cMarker/ArrowUP.png" />
+	<cdn src="files/IMAGES/cMarker/ArrowDown.png" />
+	<cdn src="files/IMAGES/cMarker/Jail.png" />
+	<cdn src="files/IMAGES/cMarker/Truck.png" />
+	
+	<cdn src="files/IMAGES/Hud/GPS.png" />
+	<cdn src="files/IMAGES/Hud/Armor.png" />
+	<cdn src="files/IMAGES/Hud/ArmorBAR.png" />
+	<cdn src="files/IMAGES/Hud/ArmorBG.png" />
+	<cdn src="files/IMAGES/Hud/Health.png" />
+	<cdn src="files/IMAGES/Hud/HealthBAR.png" />
+	<cdn src="files/IMAGES/Hud/HealthBG.png" />
+	<cdn src="files/IMAGES/Hud/LevelBAR.png" />
+	<cdn src="files/IMAGES/Hud/LevelBG.png" />
+	<cdn src="files/IMAGES/Hud/Money.png" />
+	<cdn src="files/IMAGES/Hud/Level.png" />
+	<cdn src="files/IMAGES/Hud/Wanted.png" />
+	<cdn src="files/IMAGES/Hud/Weapons/0.png" />
+	<cdn src="files/IMAGES/Hud/Weapons/3.png" />
+	<cdn src="files/IMAGES/Hud/Weapons/4.png" />
+	<cdn src="files/IMAGES/Hud/Weapons/8.png" />
+	<cdn src="files/IMAGES/Hud/Weapons/22.png" />
+	<cdn src="files/IMAGES/Hud/Weapons/23.png" />
+	<cdn src="files/IMAGES/Hud/Weapons/24.png" />
+	<cdn src="files/IMAGES/Hud/Weapons/25.png" />
+	<cdn src="files/IMAGES/Hud/Weapons/29.png" />
+	<cdn src="files/IMAGES/Hud/Weapons/30.png" />
+	<cdn src="files/IMAGES/Hud/Weapons/31.png" />
+	<cdn src="files/IMAGES/Hud/Weapons/33.png" />
+	<cdn src="files/IMAGES/Hud/Weapons/34.png" />
+	<cdn src="files/IMAGES/Hud/Weapons/42.png" />
+	
+	<cdn src="files/IMAGES/Inventory/Weed.png" />
+	<cdn src="files/IMAGES/Inventory/Burger.png" />
+	<cdn src="files/IMAGES/Inventory/Crowbar.png" />
+	
+	<cdn src="files/IMAGES/Staff/Developer.png" />
+	<cdn src="files/IMAGES/Staff/ProjectLead.png" />
+	<cdn src="files/IMAGES/Staff/Administrator.png" />
+	<cdn src="files/IMAGES/Staff/Moderator.png" />
+	<cdn src="files/IMAGES/Staff/Supporter.png" />
+	<cdn src="files/IMAGES/Staff/Trial-Supporter.png" />
+	
+	<cdn src="files/IMAGES/Radar/Map.jpg" />
+	<cdn src="files/IMAGES/Radar/Map2.jpg" />
+	<cdn src="files/IMAGES/Radar/Map3.jpg" />
+	<cdn src="files/IMAGES/Radar/Map4.jpg" />
+	<cdn src="files/IMAGES/Radar/Icons/0.png" />
+	<cdn src="files/IMAGES/Radar/Icons/1.png" />
+	<cdn src="files/IMAGES/Radar/Icons/2.png" />
+	<cdn src="files/IMAGES/Radar/Icons/4.png" />
+	<cdn src="files/IMAGES/Radar/Icons/10.png" />
+	<cdn src="files/IMAGES/Radar/Icons/19.png" />
+	<cdn src="files/IMAGES/Radar/Icons/27.png" />
+	<cdn src="files/IMAGES/Radar/Icons/30.png" />
+	<cdn src="files/IMAGES/Radar/Icons/50.png" />
+	<cdn src="files/IMAGES/Radar/Icons/51.png" />
+	<cdn src="files/IMAGES/Radar/Icons/52.png" />
+	<cdn src="files/IMAGES/Radar/Icons/55.png" />
+	<cdn src="files/IMAGES/Radar/Icons/59.png" />
+	<cdn src="files/IMAGES/Radar/Icons/62.png" />
+	<cdn src="files/IMAGES/Radar/Icons/63.png" />
+	
+	<cdn src="files/IMAGES/Teams/Civilian.png" />
+	<cdn src="files/IMAGES/Teams/Police.png" />
+	<cdn src="files/IMAGES/Teams/Grove.png" />
+	<cdn src="files/IMAGES/Teams/Ballas.png" />
+	
+	<cdn src="files/SHADERS/Water.fx" />
+	<file src="files/SHADERS/Blur.fx" />
+	
+	<cdn src="files/SOUNDS/Achievment.mp3" />
+	<cdn src="files/SOUNDS/Tazer.mp3" />
+	<cdn src="files/SOUNDS/Tuningshop.mp3" />
+	<cdn src="files/SOUNDS/Weedeffects.mp3" />
+	
+	<cdn src="files/SOUNDS/Hitglocks/Hitsound2.mp3" />
+	<cdn src="files/SOUNDS/Hitglocks/Hitsound3.mp3" />
+	<cdn src="files/SOUNDS/Hitglocks/Hitsound4.mp3" />
+	
+	<cdn src="files/SOUNDS/UI/Open.mp3" />
+	<cdn src="files/SOUNDS/UI/Close.mp3" />
+	
+	<cdn src="files/SOUNDS/Infobox/info.mp3" />
+	<cdn src="files/SOUNDS/Infobox/success.mp3" />
+	<cdn src="files/SOUNDS/Infobox/error.mp3" />
+	<cdn src="files/SOUNDS/Infobox/warning.mp3" />
+	<cdn src="files/SOUNDS/Infobox/money.mp3" />
+	
+	<cdn src="files/SOUNDS/Weapons/COLT45.mp3" />
+	<cdn src="files/SOUNDS/Weapons/DEAGLE.mp3" />
+	<cdn src="files/SOUNDS/Weapons/SHOTGUN.mp3" />
+	<cdn src="files/SOUNDS/Weapons/MP5.mp3" />
+	<cdn src="files/SOUNDS/Weapons/AK-47.mp3" />
+	<cdn src="files/SOUNDS/Weapons/M4.mp3" />
+	<cdn src="files/SOUNDS/Weapons/RIFLE.mp3" />
+	<cdn src="files/SOUNDS/Weapons/SNIPER.mp3" />
+	<cdn src="files/SOUNDS/Weapons/EXPLOSION.mp3" />
+	<cdn src="files/SOUNDS/Weapons/Reload/22.wav" />
+	<cdn src="files/SOUNDS/Weapons/Reload/23.wav" />
+	<cdn src="files/SOUNDS/Weapons/Reload/24.wav" />
+	<cdn src="files/SOUNDS/Weapons/Reload/25.wav" />
+	<cdn src="files/SOUNDS/Weapons/Reload/26.wav" />
+	<cdn src="files/SOUNDS/Weapons/Reload/27.wav" />
+	<cdn src="files/SOUNDS/Weapons/Reload/29.wav" />
+	<cdn src="files/SOUNDS/Weapons/Reload/30.wav" />
+	<cdn src="files/SOUNDS/Weapons/Reload/31.wav" />
+	<cdn src="files/SOUNDS/Weapons/Reload/33.wav" />
+	<cdn src="files/SOUNDS/Weapons/Reload/34.wav" />
+	
+	<cdn src="files/SOUNDS/Explosions/1.mp3" />
+	<cdn src="files/SOUNDS/Explosions/2.mp3" />
+	<cdn src="files/SOUNDS/Explosions/3.mp3" />
+	
+	<cdn src="files/SOUNDS/GTAVBank/Alarm.mp3" />
+	
+	<cdn src="files/TEXTURES/TEXTURES.fx" />
+	<cdn src="files/TEXTURES/ATM.png" />
+	<cdn src="files/TEXTURES/POLICETEXTURE.txd" />
+	<cdn src="files/TEXTURES/POLICEPATROLTEXTURE.txd" />
+	<cdn src="files/TEXTURES/PLATE.png" />
+	
+	<cdn src="files/TEXTURES/gtavBank/apa_prop_hei_bankdoor_new.dff" />
+	<cdn src="files/TEXTURES/gtavBank/apa_prop_hei_bankdoor_new.col" />
+	<cdn src="files/TEXTURES/gtavBank/bank.txd" />
+	<cdn src="files/TEXTURES/gtavBank/bank.dff" />
+	<cdn src="files/TEXTURES/gtavBank/bank.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankb_arch.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankb_arch.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankb_atm1.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankb_atm1.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankb_cornice1.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankb_cornice1.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankb_counter1.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankb_counter1.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbankarches.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbankarches.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbbalistrade1.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbbalistrade1.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbbalistrade2.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbbalistrade2.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbbanister1.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbbanister1.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbbanister03.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbbanister03.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbfurniture.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbfurniture.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankborntelamp2.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankborntelamp2.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankborntelamp3.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankborntelamp3.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankborntelamp4.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankborntelamp4.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbsafebars.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbsafebars.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbsafeframe.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbsafeframe.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbsecurity.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbsecurity.col" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbstairs2.dff" />
+	<cdn src="files/TEXTURES/gtavBank/hei_obankbstairs2.col" />
+	<cdn src="files/TEXTURES/gtavBank/prop_atm_02.dff" />
+	<cdn src="files/TEXTURES/gtavBank/prop_atm_02.col" />
+	<cdn src="files/TEXTURES/gtavBank/prop_ld_balastrude.dff" />
+	<cdn src="files/TEXTURES/gtavBank/prop_ld_balastrude.col" />
+	<cdn src="files/TEXTURES/gtavBank/prop_v_5_bclock.dff" />
+	<cdn src="files/TEXTURES/gtavBank/prop_v_5_bclock.col" />
+	<cdn src="files/TEXTURES/gtavBank/v_ilev_bk_gate2.dff" />
+	<cdn src="files/TEXTURES/gtavBank/v_ilev_bk_gate2.col" />
+	<cdn src="files/TEXTURES/gtavBank/v_ilev_bk_vaultdoor.dff" />
+	<cdn src="files/TEXTURES/gtavBank/v_ilev_bk_vaultdoor.col" />
+	
+	<cdn src="files/TEXTURES/Wheels/wheel_gn1.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_gn2.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_gn3.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_gn4.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_gn5.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_lr1.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_lr2.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_lr3.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_lr4.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_lr5.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_or1.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_sr1.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_sr2.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_sr3.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_sr4.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_sr5.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_sr6.dff" />
+	<cdn src="files/TEXTURES/Wheels/wheel_sr7.dff" />
+	<cdn src="files/TEXTURES/Wheels/rod.txd" />
+	<!--\\Files//-->
+	
+	<!--//Admin Systems\\-->
+	<script src="Adminsystem/sAdmin.lua" type="server" />
+	<script src="Adminsystem/sAduty.lua" type="server" />
+	<script src="Adminsystem/cPanel.lua" type="client" cache="false" />
+	<script src="Adminsystem/cLog.lua" type="client" cache="false" />
+	<script src="Adminsystem/sLog.lua" type="server" />
+	<script src="Adminsystem/Superman/cSuperman.lua" type="client" cache="false" />
+	<script src="Adminsystem/Superman/sSuperman.lua" type="server" />
+	<!--\\Admin Systems//-->
+	
+	<!--//Display Systems\\-->
+	<script src="display/cBreakingnews.lua" type="client" cache="false" />
+	<script src="display/cTablist.lua" type="client" cache="false" />
+	<script src="display/cInfobox.lua" type="client" cache="false" />
+	<script src="display/cInfobox-new.lua" type="client" cache="false" />
+	<script src="display/cNametag.lua" type="client" cache="false" />
+	<script src="display/cIntrotask.lua" type="client" cache="false" />
+	<script src="display/cMinimap.lua" type="client" cache="false" />
+	<script src="display/cF11map.lua" type="client" cache="false" />
+	<script src="display/cHud.lua" type="client" cache="false" />
+	<script src="display/cSpeedo.lua" type="client" cache="false" />
+	<!--\\Display Systems//-->
+	
+	<!--//Inventory Systems\\-->
+	<script src="Inventory/cInventory.lua" type="client" cache="false" />
+	<script src="Inventory/sInventory.lua" type="server" />
+	<!--\\Inventory Systems//-->
+	
+	<!--//Team Systems\\-->
+	<script src="Teamsystem/allround.lua" />
+	
+	<script src="Teamsystem/Actions/GTAVBankrob/cBankrob.lua" type="client" cache="false" />
+	<script src="Teamsystem/Actions/GTAVBankrob/sBankrob.lua" type="server" />
+	<script src="Teamsystem/Actions/GTAVBankrob/teleporter.lua" />
+	<script src="Teamsystem/Actions/ATMrob/cATMrob.lua" type="client" cache="false" />
+	<script src="Teamsystem/Actions/ATMrob/sATMrob.lua" type="server" />
+	<script src="Teamsystem/Actions/Weedtruck/cWeedtruck.lua" type="client" cache="false" />
+	<script src="Teamsystem/Actions/Weedtruck/sWeedtruck.lua" type="server" />
+	<script src="Teamsystem/Actions/Moneytruck/cMoneytruck.lua" type="client" cache="false" />
+	<script src="Teamsystem/Actions/Moneytruck/sMoneytruck.lua" type="server" />
+	<script src="Teamsystem/Actions/Containerrob/cContainerRob.lua" type="client" cache="false" />
+	<script src="Teamsystem/Actions/Containerrob/sContainerRob.lua" type="server" />
+	
+	<script src="Teamsystem/cWeaponshop.lua" type="client" cache="false" />
+	<script src="Teamsystem/sWeaponshop.lua" type="server" />
+	
+	<script src="Teamsystem/TeamPolice/cFunctions.lua" type="client" cache="false" />
+	<script src="Teamsystem/TeamPolice/sFunctions.lua" />
+	<script src="Teamsystem/TeamPolice/teleporter.lua" />
+	<script src="Teamsystem/TeamPolice/vehicles.lua" />
+	
+	<script src="Teamsystem/TeamGrove/teleporter.lua" />
+	<script src="Teamsystem/TeamGrove/vehicles.lua" />
+	
+	<script src="Teamsystem/TeamBallas/teleporter.lua" />
+	<script src="Teamsystem/TeamBallas/vehicles.lua" />
+	<!--\\Team Systems//-->
+	
+	<!--//Vehicle Systems\\-->
+	<script src="Vehiclesystem/allround.lua" />
+	<script src="Vehiclesystem/cVehiclepanel.lua" type="client" cache="false" />
+	
+	<script src="Vehiclesystem/Paynspray/PayNspray.lua" />
+	<script src="Vehiclesystem/Carhouse/cCardealership.lua" type="client" cache="false" />
+	<script src="Vehiclesystem/Carhouse/sCardealership.lua" type="server" />
+	<script src="Vehiclesystem/Tuning/cTuningsystem.lua" type="client" cache="false" />
+	<script src="Vehiclesystem/Tuning/sTuningsystem.lua" type="server" />
+	
+	<script src="Vehiclesystem/radio/cRadio.lua" type="client" cache="false" />
+	<script src="Vehiclesystem/radio/cRadiodisplay.lua" type="client" cache="false" />
+	<!--\\Vehicle Systems//-->
+	
+	<!--//Shop Systems\\-->
+	<script src="Shopsystem/Burgershot/cBurgershot.lua" type="client" cache="false" />
+	<script src="Shopsystem/Burgershot/sBurgershot.lua" type="server" />
+	<script src="Shopsystem/Burgershot/sTeleporter.lua" type="server" />
+	
+	<script src="Shopsystem/sBuyShopItems.lua" type="server" />
+	<!--\\Shop Systems//-->
+	
+	<!--//Other Staff\\-->
+	<script src="other/deathsys/cDeath.lua" type="client" cache="false" />
+	<script src="other/deathsys/sDeath.lua" />
+	<script src="other/deathsys/cHospital.lua" type="client" cache="false" />
+	<script src="other/cHelpmenue.lua" type="client" cache="false" />
+	<script src="other/cSoundsys.lua" type="client" cache="false" />
+	<script src="other/cTextures.lua" type="client" cache="false" />
+	<script src="other/cWorldtexts.lua" type="client" cache="false" />
+	<script src="other/cSelfmenue.lua" type="client" cache="false" />
+	<script src="other/sNewsbox.lua" type="server" />
+	<script src="other/sAFK.lua" type="server" />
+	<script src="other/sBlips.lua" type="server" />
+	<script src="other/chatsys/sAdminchat.lua" type="server" />
+	<script src="other/chatsys/sMainchat.lua" type="server" />
+	<script src="other/chatsys/sGlobalchat.lua" type="server" />
+	<script src="other/chatsys/sTeamchat.lua" type="server" />
+	<script src="other/sPlayingtimer.lua" type="server" />
+	<script src="other/cPeds.lua" type="client" cache="false" />
+	<script src="other/clicksys/sClick.lua" type="server" />
+	<script src="other/clicksys/cClick.lua" type="client" cache="false" />
+	<script src="other/moneysys/cATM.lua" type="client" cache="false" />
+	<script src="other/moneysys/sATM.lua" type="server" />
+	<script src="other/moneysys/sMoney.lua" type="server" />
+	<script src="other/achievementsys/cAchievement.lua" type="client" cache="false" />
+	<script src="other/achievementsys/sAchievement.lua" type="server" />
+	<script src="other/inventorysys/cInventory.lua" type="client" cache="false" />
+	<script src="other/inventorysys/sInventory.lua" type="server" />
+	<script src="other/cSavezones.lua" type="client" cache="false" />
+	<script src="other/sTasks.lua" type="server" />
+	<script src="other/sDiscord.lua" type="server" />
+	<script src="other/sAnticheat.lua" type="server" />
+	
+	<!--//Premiumsys\\-->
+	<script src="other/premiumsys/cPremiumpanel.lua" type="client" cache="false" />
+	<script src="other/premiumsys/sPremiumpanel.lua" type="server" />
+	
+	<script src="other/premiumsys/Musicbox/cMusicbox.lua" type="client" cache="false" />
+	<script src="other/premiumsys/Musicbox/sMusicbox.lua" type="server" />
+	<!--\\Premiumsys//-->
+	
+	<script src="other/boneattachsys/bone_attach.lua" />
+	<script src="other/boneattachsys/bone_attach_c.lua" type="client" cache="false" />
+	<script src="other/boneattachsys/attach_func.lua" />
+	<script src="other/boneattachsys/attach_func.lua" type="client" cache="false" />
+	<script src="other/boneattachsys/bone_pos_rot.lua" type="client" cache="false" />
+	<!--\\Other Staff//-->
+	
+	
+	
+	<!--//Exports\\-->
+	<export function="attachElementToBone" type="server" />
+	<export function="attachElementToBone" type="client" />
+	<export function="detachElementFromBone" type="server" />
+	<export function="detachElementFromBone" type="client" />
+	<export function="isElementAttachedToBone" type="server" />
+	<export function="isElementAttachedToBone" type="client" />
+	<export function="getElementBoneAttachmentDetails" type="server" />
+	<export function="getElementBoneAttachmentDetails" type="client" />
+	<export function="setElementBonePositionOffset" type="server" />
+	<export function="setElementBonePositionOffset" type="client" />
+	<export function="setElementBoneRotationOffset" type="server" />
+	<export function="setElementBoneRotationOffset" type="client" />
+	<export function="getBonePositionAndRotation" type="client" />
+	
+	<export function="syncGetElementData" type="server"/>
+	<export function="syncSetElementData" type="server"/>
+	<!--\\Exports//-->
+</meta>

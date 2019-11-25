@@ -1,0 +1,6 @@
+<map edf:definitions="editor_main">
+    <object id="object (fencesmallb) (1)" breakable="true" interior="0" alpha="255" model="970" doublesided="true" scale="1" dimension="0" posX="2493.5" posY="-1648.4" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (2)" breakable="true" interior="0" alpha="255" model="970" doublesided="true" scale="1" dimension="0" posX="2500.3" posY="-1648.4" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (3)" breakable="true" interior="0" alpha="255" model="970" doublesided="true" scale="1" dimension="0" posX="2496.8999" posY="-1647.3" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (4)" breakable="true" interior="0" alpha="255" model="970" doublesided="true" scale="1" dimension="0" posX="2504.5" posY="-1647.7" posZ="13.1" rotX="0" rotY="0" rotZ="20"></object>
+</map>

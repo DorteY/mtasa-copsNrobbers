@@ -1,0 +1,21 @@
+<map edf:definitions="editor_main">
+    <object id="object (fencesmallb) (1)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1500.7" posY="-1742.3" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (2)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1496.5" posY="-1742.3" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (3)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1492.3" posY="-1742.2" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (4)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1461.5" posY="-1742.3" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (5)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1465.7" posY="-1742.3" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (6)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1469.9" posY="-1742.3" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (8)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1486.6" posY="-1742.2" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (10)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1475.6" posY="-1742.3" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (11)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1481.1" posY="-1742.3" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (12)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1504.9" posY="-1742.3" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (13)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1457.3" posY="-1742.3" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (14)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1455.1" posY="-1744.5" posZ="13.1" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (fencesmallb) (15)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1507.2" posY="-1744.5" posZ="13.1" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (fencesmallb) (16)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1507.2" posY="-1748.7" posZ="13.1" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (fencesmallb) (17)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1455.1" posY="-1748.7" posZ="13.1" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (kb_planter_bush2) (1)" breakable="true" interior="0" alpha="255" model="640" doublesided="true" scale="1" dimension="0" posX="1497.6" posY="-1749.8" posZ="15.1" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (kb_planter_bush2) (2)" breakable="true" interior="0" alpha="255" model="640" doublesided="true" scale="1" dimension="0" posX="1464.6" posY="-1749.8" posZ="15.1" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (CJ_BUSH_PROP3) (1)" breakable="true" interior="0" alpha="255" model="1360" doublesided="true" scale="1" dimension="0" posX="1507.2" posY="-1753.1" posZ="13.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_BUSH_PROP3) (2)" breakable="true" interior="0" alpha="255" model="1360" doublesided="true" scale="1" dimension="0" posX="1455.1" posY="-1753.1" posZ="13.3" rotX="0" rotY="0" rotZ="0"></object>
+</map>
