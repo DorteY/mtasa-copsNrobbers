@@ -19,7 +19,7 @@ settings={
 		servername="Cops 'n' Robbers",
 		servernameK="CnR",
 		
-		devtime=f,
+		devtime=false,
 		
 		serverfps=100,
 		nametagerange=24,
